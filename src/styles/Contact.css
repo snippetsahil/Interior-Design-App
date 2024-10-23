@@ -1,0 +1,39 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 600px; /* Maximum width of the form */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Padding around the form */
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-container h2 {
+  text-align: center; /* Center the heading */
+  color: #343a40; /* Darker text color */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-container .form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+.contact-container .form-control {
+  border-radius: 4px; /* Rounded input fields */
+}
+
+.contact-container .btn {
+  width: 100%; /* Full-width button */
+  border-radius: 4px; /* Rounded button */
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px; /* Less padding on smaller screens */
+  }
+
+  .contact-container h2 {
+    font-size: 1.5rem; /* Smaller font size on mobile */
+  }
+}

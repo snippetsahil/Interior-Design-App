@@ -1,0 +1,28 @@
+/* ProjectsGallery.css */
+
+.projects-gallery-container {
+  max-width: 1200px; /* Maximum width for the gallery */
+  margin: 0 auto; /* Center the gallery */
+  padding: 20px; /* Padding around the gallery */
+}
+
+.projects-gallery-container h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 30px; /* Space below the heading */
+  color: #343a40; /* Darker color for the heading */
+}
+
+.project-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Optional: Style the Card */
+.card {
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}

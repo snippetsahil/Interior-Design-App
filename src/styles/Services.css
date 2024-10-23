@@ -1,0 +1,32 @@
+.services-container {
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 40px 20px; /* Add padding for space */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center-align text */
+}
+
+.services-title {
+  font-size: 2.5rem; /* Larger font for title */
+  color: #333; /* Dark text color for contrast */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.services-list {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove default padding */
+}
+
+.services-item {
+  font-size: 1.2rem; /* Slightly larger font for items */
+  color: #555; /* Medium gray for the text */
+  padding: 10px 0; /* Space around list items */
+  border-bottom: 1px solid #eee; /* Separator line between items */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.services-item:hover {
+  background-color: #e9f5ff; /* Light blue background on hover */
+}

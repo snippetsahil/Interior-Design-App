@@ -1,0 +1,35 @@
+.header-navbar {
+  background-color: #ffffff; /* Light background for the navbar */
+  border-bottom: 2px solid #eaeaea; /* Subtle bottom border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.header-navbar .navbar-brand {
+  font-size: 1.8rem; /* Larger font for brand name */
+  color: #333; /* Dark text color */
+  font-weight: bold; /* Bold font weight for emphasis */
+}
+
+.header-navbar .nav-link {
+  color: #555; /* Medium gray color for links */
+  font-size: 1.1rem; /* Slightly larger font for links */
+  padding: 15px 20px; /* Padding around links */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.header-navbar .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.header-navbar .navbar-toggler {
+  border: none; /* Remove default border from the toggle button */
+}
+
+.header-navbar .navbar-toggler:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.header-navbar .navbar-collapse {
+  justify-content: flex-end; /* Align nav items to the right */
+}

@@ -1,0 +1,25 @@
+footer {
+  background-color: #333; /* Dark background for the footer */
+  color: #ffffff; /* White text color */
+  padding: 20px 0; /* Vertical padding for spacing */
+  position: relative; /* Allows for absolute positioning of child elements */
+  bottom: 0; /* Aligns footer at the bottom */
+  width: 100%; /* Full width */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+footer p {
+  margin: 0; /* Removes default margin */
+  font-size: 1rem; /* Font size for the paragraph */
+  line-height: 1.5; /* Line height for readability */
+}
+
+footer a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Removes underline */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
